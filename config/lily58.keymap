@@ -102,7 +102,7 @@
 &trans     &trans  &kp AT_SIGN    &kp DOLLAR     &kp HASH               &trans                       &trans       &trans            &kt INSERT      &trans             &trans     &trans
 &kp GRAVE  &kp N1  &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN       &kp N5                       &kp AT       &kp LEFT_BRACE    &kp UNDERSCORE  &kp RIGHT_BRACE    &kp N0     &trans
 &kp F1     &kp F2  &kp LPAR       &kp MINUS      &kp RIGHT_PARENTHESIS  &kp F6                       &kp PERCENT  &kp LEFT_BRACKET  &kp COLON       &kp RIGHT_BRACKET  &kp RIGHT  &trans
-&kp F7     &kp F8  &kp ASTRK      &kp SEMICOLON  &kp QUESTION           &kp SLASH  &trans    &trans  &kp KP_PLUS  &kp BSLH          &kp TILDE       &kp AMPERSAND      &kp RBKT   &kp BSLH
+&kp F7     &kp F8  &kp ASTRK      &kp SEMICOLON  &kp QUESTION           &kp SLASH  &trans    &trans  &kp KP_PLUS  &kp SLASH         &kp TILDE       &kp AMPERSAND      &kp RBKT   &kp BSLH
                                   &trans         &trans                 &trans     &trans    &trans  &trans       &trans            &trans
             >;
 
