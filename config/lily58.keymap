@@ -81,7 +81,7 @@
 
             bindings = <
 &trans          &trans    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                      &trans     &trans     &trans     &trans    &trans    &trans
-&kp LA(TAB)     &kp F2    &kp F3          &kp UP_ARROW    &kp F5           &kp F6                            &kp F7     &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
+&kp LA(TAB)     &kp F2    &kp LC(Q)       &kp UP_ARROW    &kp LC(E)        &kp F6                            &kp F7     &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
 &kp GRAVE       &kp EXCL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp TILDE
 &kp LEFT_SHIFT  &trans    &trans          &kp LC(C)       &kp LC(V)        &kp BACKSPACE  &kp RET    &trans  &trans     &kp MINUS  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE
                                           &trans          &trans           &trans         &trans     &trans  &trans     &trans     &trans
