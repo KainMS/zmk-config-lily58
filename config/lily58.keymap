@@ -103,7 +103,7 @@
 &kp GRAVE  &kp N1  &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN       &kp N5                           &kp AT       &kp LEFT_BRACE    &kp UNDERSCORE  &kp RIGHT_BRACE    &kp N0           &trans
 &kp F1     &kp F2  &kp LPAR       &kp MINUS      &kp RIGHT_PARENTHESIS  &kp F6                           &kp PERCENT  &kp LEFT_BRACKET  &kp COLON       &kp RIGHT_BRACKET  &kp EXCLAMATION  &trans
 &kp F7     &kp F8  &kp ASTRK      &kp SEMICOLON  &kp QUESTION           &kp BACKSLASH  &trans    &trans  &kp HASH     &kp SLASH         &kp TILDE       &kp AMPERSAND      &kp RBKT         &kp BSLH
-                                  &trans         &trans                 &trans         &trans    &trans  &trans       &trans            &trans
+                                  &trans         &trans                 &trans         &trans    &trans  &trans       &mo 6             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -121,11 +121,31 @@
 
         calk {
             bindings = <
-&bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans                       &kp KP_NUMLOCK  &kp SLASH     &kp ASTERISK  &kp MINUS     &trans     &trans
-&trans          &trans  &trans  &trans  &trans  &trans                       &trans          &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
-&trans          &trans  &trans  &trans  &trans  &trans                       &trans          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COMMA  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
-                                &trans  &trans  &trans  &trans    &kp ENTER  &kp PERIOD      &kp NUMBER_0  &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans                       &kp KP_NUMLOCK  &kp SLASH     &kp ASTERISK  &kp MINUS     &trans     &trans
+&trans       &trans  &trans  &trans  &trans  &trans                       &trans          &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
+&trans       &trans  &trans  &trans  &trans  &trans                       &trans          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COMMA  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
+                             &trans  &trans  &trans  &trans    &kp ENTER  &kp PERIOD      &kp NUMBER_0  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&bootloader  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &bootloader
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
