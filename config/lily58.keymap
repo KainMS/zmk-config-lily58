@@ -80,11 +80,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR_ALL  &kp KP_NUMLOCK  &bt BT_SEL 1    &bt BT_SEL 2        &bt BT_SEL 3     &bt BT_SEL 4                           &trans     &trans     &trans     &trans    &trans    &trans
-&kp LA(TAB)     &kp F2          &kp HOME        &kp UP_ARROW        &kp END          &kp F6                                 &kp F7     &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
-&kp GRAVE       &kp EXCL        &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp ENTER                              &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp TILDE
-&kp LEFT_SHIFT  &kp LC(Z)       &kp LC(X)       &kp LC(C)           &kp LC(V)        &kp DEL       &kp BACKSPACE    &trans  &trans     &kp MINUS  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE
-                                                &kp LC(LEFT_SHIFT)  &trans           &trans        &trans           &trans  &trans     &trans     &trans
+&kp F1          &kp F2     &kp F3          &kp F4              &kp F5           &kp F6                              &kp F7     &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
+&kp LA(TAB)     &kp F2     &kp HOME        &kp UP_ARROW        &kp END          &kp F6                              &kp F7     &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
+&kp GRAVE       &kp EXCL   &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp ENTER                           &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp TILDE
+&kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)       &kp LC(C)           &kp LC(V)        &kp DEL    &kp BACKSPACE    &trans  &trans     &kp MINUS  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE
+                                           &kp LC(LEFT_SHIFT)  &mo 5            &trans     &trans           &trans  &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -131,20 +131,20 @@
 
         layer_5 {
             bindings = <
-&bootloader  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader     &trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &bootloader
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
